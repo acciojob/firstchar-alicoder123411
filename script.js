@@ -1,12 +1,6 @@
 function firstChar(text) {
-	s=text.trim();
-	if(s==""){
-		console.log("")
-	}else if(s==" "){
-		console.log(" ")
-	}else{
-		console.log(s[0])
-	}
+  let s = text.trim();
+  return s.charAt(0);
   // your code here
 }
 
